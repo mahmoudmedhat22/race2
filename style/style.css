@@ -1,0 +1,388 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.road{
+    position: relative;
+    width: 40%;
+    height: 24vh;
+    background-color: gray;
+    margin-top: 10px;
+}
+.one{
+    background-image:url(../images/road1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: road1   3s  forwards  ;
+}
+@keyframes road1 {
+    0% {
+  width: 40%;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+        
+width: 100%;
+
+       
+    }
+}
+
+
+.c-one{
+    background-image: url(../images/cartwo.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    animation: staart   4.6s 3s forwards  ;
+}
+@keyframes staart {
+    0% {
+     right: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+        
+right: 89%;
+
+       
+    }
+}
+.c-two{
+    background-image: url(../images/carone.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    animation: start2   5s  3s forwards;
+}
+@keyframes start2 {
+    0% {
+     right: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+right: 89%;
+       
+    }
+}
+
+.two{
+    background-image:url(../images/road2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: road2   3s 6s  forwards  ;
+}
+@keyframes road2 {
+    0% {
+  width: 40%;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+        
+width: 100%;
+
+       
+    }
+}
+
+
+.c-three{
+    background-image: url(../images/carfour.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    width: 400px;
+    animation: start3   5.5s  9s forwards;
+}
+@keyframes start3 {
+    0% {
+     left: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+left: 89%;
+       
+    }
+}
+
+.c-four{
+    background-image: url(../images/carthree.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    
+    animation: start4   5s  9s forwards;
+}
+@keyframes start4 {
+    0% {
+     left: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+left: 89%;
+       
+    }
+}
+
+.three{
+    background-image:url(../images/road3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: road3   3s 12s forwards  ;
+}
+@keyframes road3 {
+    0% {
+  width: 40%;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+        
+width: 100%;
+
+       
+    }
+}
+.c-five{
+    background-image: url(../images/cartwo.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    animation: start5   5s  15s forwards;
+}
+@keyframes start5 {
+    0% {
+     right: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+right: 89%;
+       
+    }
+}
+
+.c-six{
+    background-image: url(../images/carone.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    animation: start6   4.2s  15s forwards;
+}
+@keyframes start6 {
+    0% {
+     right: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+right: 89%;
+       
+    }
+}
+
+.four{
+    background-image:url(../images/road4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: road4   3s 18s forwards  ;
+}
+@keyframes road4 {
+    0% {
+  width: 40%;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+        
+width: 100%;
+
+       
+    }
+}
+.c-seven{
+    background-image: url(../images/carfour.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    animation: start7   5s  21s forwards;
+}
+@keyframes start7 {
+    0% {
+     left: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+left: 89%;
+       
+    }
+}
+
+.c-eight{
+    background-image: url(../images/carthree.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size:cover ;
+    animation: start8   4s  21s forwards;
+}
+@keyframes start8 {
+    0% {
+     left: 0;
+    }
+    /* 25% {
+left: 25%;
+    }
+    50% {
+            left: 50%;  
+   
+    }
+    75% {
+    left: 75%;
+     
+    } */
+    100% {
+left: 89%;
+       
+    }
+}
+
+.car1{
+    position: absolute;
+    width: 200px;
+    height: 47%;
+    background-color: blue;
+    top: 17px;
+   
+}
+
+.car2{
+    position: absolute;
+    width: 200px;
+    height: 47%;
+    background-color: blue;
+    bottom:0px;
+}
+.c-one{
+   right : 0;
+}
+.c-two{
+    right: 0;
+}
+
+.c-three{
+    left: 0;
+}
+.c-four{
+    left: 0;
+}
+.c-five{
+    right : 0;
+ }
+ .c-six{
+     right: 0;
+ }
+ 
+ .c-seven{
+     left: 0;
+ }
+ .c-eight{
+     left: 0;
+ }
